@@ -63,3 +63,10 @@ e1.afficherInformation()
 e2.afficherInformation()
 v1.afficherInformation()
 v2.afficherInformation()
+#test Voitture deja effectee
+e1.affecterVoiture(v2)
+e1.afficherInformation()
+e2.afficherInformation()
+v1.afficherInformation()
+v2.afficherInformation()
+
