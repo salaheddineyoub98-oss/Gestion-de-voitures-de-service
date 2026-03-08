@@ -55,3 +55,11 @@ e1.afficherInformation()
 e2.afficherInformation()
 v1.afficherInformation()
 v2.afficherInformation()
+
+#retireVoiture
+e1.retirerVoiture()
+
+e1.afficherInformation()
+e2.afficherInformation()
+v1.afficherInformation()
+v2.afficherInformation()
