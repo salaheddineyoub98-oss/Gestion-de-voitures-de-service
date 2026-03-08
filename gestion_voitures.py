@@ -43,3 +43,7 @@ e2 = Employe("S112", "Manar", "Derar")
 
 v1 = Voiture("M7111", 2026, "Toyota", 1500)
 v2 = Voiture("M123", 2026, "Honda", 3000)
+e1.afichierInformation()
+e2.afichierInformation()
+v1.affichierInformation()
+v2.affichierInformation()
