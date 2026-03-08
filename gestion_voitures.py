@@ -18,5 +18,14 @@ class Voiture:
         self.annee=annee
         self.marque=marque
         self.kilomtrage=kilomtrage
-        self,chauffeur=None
+        self.chauffeur=None
+    def affichierInformation(self):
+        print('matricule : ',self.matricule)
+        print('annee : ',self.annee)
+        print('marque : ',self.marque)
+        print('kiloetrage : ',self.kilomtrage)
+        if self.chauffeur is None:
+            print('pas de chauffeur ')
+        else:
+            print('chaffeure ',self.chauffeur.nom)
     
