@@ -12,4 +12,11 @@ class Employe:
             print(' pas de voiture on service')
         else:
             print('voiture : ',self.voitureService)
-   
+class Voiture:
+    def __init__(self,matricule,annee,marque,kilomtrage):
+        self.matricule=matricule
+        self.annee=annee
+        self.marque=marque
+        self.kilomtrage=kilomtrage
+        self,chauffeur=None
+    
