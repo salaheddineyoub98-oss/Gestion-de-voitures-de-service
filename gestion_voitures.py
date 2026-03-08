@@ -14,14 +14,14 @@ class Employe:
             print('voiture : ',self.voitureService)
     def affecterVoiture(self, voiture):
         if self.voitureService is None and voiture.chauffeur is None:
-        self.voitureService = voiture
-        voiture.chauffeur = self
-    else:
-        print("Impossible d'affecter la voiture")
+            self.voitureService = voiture
+            voiture.chauffeur = self
+        else:
+            print("Impossible d'affecter la voiture")
     def retirerVoiture(self):
         if self.voitureService is not None:
-        self.voitureService.chauffeur = None
-        self.voitureService = None
+            self.voitureService.chauffeur = None
+            self.voitureService = None
 class Voiture:
     def __init__(self,matricule,annee,marque,kilomtrage):
         self.matricule=matricule
@@ -47,3 +47,11 @@ e1.afichierInformation()
 e2.afichierInformation()
 v1.affichierInformation()
 v2.affichierInformation()
+
+e1.affecterVoiture(v1)
+e2.affecterVoiture(v2)
+
+e1.afficherInformation()
+e2.afficherInformation()
+v1.afficherInformation()
+v2.afficherInformation()
