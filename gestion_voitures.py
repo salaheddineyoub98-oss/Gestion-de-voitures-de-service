@@ -38,4 +38,8 @@ class Voiture:
             print('pas de chauffeur ')
         else:
             print('chaffeure ',self.chauffeur.nom)
-    
+e1 = Employe("S111", "salaheddine", "youb")
+e2 = Employe("S112", "Manar", "Derar")
+
+v1 = Voiture("M7111", 2026, "Toyota", 1500)
+v2 = Voiture("M123", 2026, "Honda", 3000)
